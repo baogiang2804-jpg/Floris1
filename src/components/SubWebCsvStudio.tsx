@@ -2,8 +2,6 @@ import React, { useState, useRef } from 'react';
 import {
   FileSpreadsheet,
   Upload,
-  Download,
-  Sparkles,
   CheckCircle2,
   AlertTriangle,
   Plus,

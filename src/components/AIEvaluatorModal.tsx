@@ -9,7 +9,6 @@ import {
   FlaskConical,
   RefreshCw,
   X,
-  CheckCircle,
 } from 'lucide-react';
 import { CalculatedIngredient } from '../utils/perfumeCalculations';
 import { safeRequestPerfumeEvaluation } from '../utils/aiPerfumeEngine';

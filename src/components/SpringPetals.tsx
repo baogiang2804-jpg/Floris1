@@ -1,5 +1,5 @@
-import React, { useState, useEffect } from 'react';
-import { Flower2, EyeOff, Sparkles } from 'lucide-react';
+import React, { useState } from 'react';
+import { Flower2, EyeOff } from 'lucide-react';
 
 interface SpringPetalData {
   id: number;

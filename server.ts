@@ -817,9 +817,7 @@ function generateLocalAdjustment(
     ingredients.find((i: any) => i.slotKey === slotKey)?.name || fallback;
 
   const top1Name = findSlotName('top1', 'Hoa nhài 🌼');
-  const top2Name = findSlotName('top2', 'Hoa nhài Trắng 🌼');
   const heart1Name = findSlotName('heart1', 'Đào 🍑');
-  const heart2Name = findSlotName('heart2', 'Đào Mùa Xuân 🍑');
   const base1Name = findSlotName('base1', 'Xạ hương trắng 🤍');
   const base2Name = findSlotName('base2', 'Vanilla 🍦');
 

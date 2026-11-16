@@ -1,5 +1,5 @@
 import React from 'react';
-import { Beaker, Droplets, Gauge } from 'lucide-react';
+import { Beaker, Droplets } from 'lucide-react';
 
 interface VolumeAndConcentrationProps {
   totalVolume: number;

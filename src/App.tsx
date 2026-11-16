@@ -1,28 +1,17 @@
-import React, { useState, useMemo, useEffect } from 'react';
+import { useState, useMemo, useEffect } from 'react';
 import {
-  Sparkles,
-  Download,
   FileCode,
   FlaskConical,
-  RotateCcw,
   CheckCircle2,
-  AlertTriangle,
-  Layers,
-  Compass,
-  FileSpreadsheet,
-  Award,
   Bookmark,
   GitCompare,
   Undo2,
   ChevronDown,
   ChevronUp,
   Loader2,
-  QrCode,
   Mic,
   BookOpen,
-  Bot,
   ArrowRight,
-  Home,
 } from 'lucide-react';
 import confetti from 'canvas-confetti';
 import { Header } from './components/Header';
@@ -30,8 +19,6 @@ import { SeasonalSelector } from './components/SeasonalSelector';
 import { VolumeAndConcentration } from './components/VolumeAndConcentration';
 import { OlfactoryPyramidSliders } from './components/OlfactoryPyramidSliders';
 import { ScentProfileView } from './components/ScentProfileView';
-import { FormulaTableAndCsv } from './components/FormulaTableAndCsv';
-import { QRAndVoiceAssistantSection } from './components/QRAndVoiceAssistantSection';
 import { AIEvaluatorModal } from './components/AIEvaluatorModal';
 import { PythonStreamlitModal } from './components/PythonStreamlitModal';
 import { SavedFormulasModal } from './components/SavedFormulasModal';
@@ -870,7 +857,6 @@ export default function App() {
 
       const jasmine = items.find((i) => i.name.includes('nhài'))?.percentage || 0;
       const peach = items.find((i) => i.name.includes('Đào') || i.name.includes('đào'))?.percentage || 0;
-      const vanilla = items.find((i) => i.name.includes('Vanilla') || i.name.includes('Vani'))?.percentage || 0;
       const musk = items.find((i) => i.name.includes('Xạ hương'))?.percentage || 0;
 
       const normTop1 = Math.round((peach / totalFragranceRawPct) * 100);

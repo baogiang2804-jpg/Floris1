@@ -1,18 +1,15 @@
 import React, { useState, useRef, useEffect, useCallback } from 'react';
 import {
   Mic,
-  MicOff,
   Volume2,
   VolumeX,
   Sparkles,
   Send,
   X,
-  ArrowRight,
   Loader2,
   CheckCircle2,
   Check,
   GitCompare,
-  AudioWaveform,
   BrainCircuit,
   BookmarkPlus,
   Radio,

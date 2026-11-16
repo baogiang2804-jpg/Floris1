@@ -1,6 +1,6 @@
 import React from 'react';
 import { Flower2, Sun, CloudRain, Snowflake, Sparkles } from 'lucide-react';
-import { SEASONAL_TEMPLATES, SeasonalTemplate } from '../data/perfumeData';
+import { SEASONAL_TEMPLATES } from '../data/perfumeData';
 
 interface SeasonalSelectorProps {
   selectedSeason: 'spring' | 'summer' | 'autumn' | 'winter';

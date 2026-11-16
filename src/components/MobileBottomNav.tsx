@@ -6,7 +6,6 @@ import {
   Bot,
   BookOpen,
   Bookmark,
-  Sparkles,
   FileCode,
 } from 'lucide-react';
 

@@ -1,10 +1,8 @@
 import React, { useState } from 'react';
 import {
   Download,
-  Table,
   Check,
   Copy,
-  Shield,
   FileSpreadsheet,
   Droplets,
   Calculator,
@@ -12,7 +10,6 @@ import {
   ChevronUp,
   FlaskConical,
   Sparkles,
-  Eye,
   Beaker,
 } from 'lucide-react';
 import { CalculatedIngredient } from '../utils/perfumeCalculations';

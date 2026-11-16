@@ -8,7 +8,6 @@ import {
   Dna,
   Wind,
   Layers,
-  Check,
   ArrowLeft,
 } from 'lucide-react';
 import { PerfumeIngredient } from '../data/perfumeData';

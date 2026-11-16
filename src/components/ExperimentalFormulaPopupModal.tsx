@@ -10,8 +10,6 @@ import {
   BookOpen,
   Scale,
   Heart,
-  Users,
-  Layers,
   FlaskConical,
 } from 'lucide-react';
 import { GROUP_LAB_REPORT_DATA, FLORIS_IMAGES } from '../data/perfumeData';

@@ -1,7 +1,6 @@
 import React, { useState, useEffect, useRef } from 'react';
 import {
   FlaskConical,
-  CheckCircle2,
   Download,
   Copy,
   Check,
@@ -144,7 +143,7 @@ export const PresentationShowcaseHub: React.FC<PresentationShowcaseHubProps> = (
   const [isEditingLabNotes, setIsEditingLabNotes] = useState(false);
   const [showMoreLabDetails, setShowMoreLabDetails] = useState(false);
   const [activeVariantCode, setActiveVariantCode] = useState<string>('Mẫu A - Gốc');
-  const [initialEvalState, setInitialEvalState] = useState(
+  const [initialEvalState] = useState(
     EXPERIMENTAL_BASELINE_FORMULA.initialEvaluation
   );
 

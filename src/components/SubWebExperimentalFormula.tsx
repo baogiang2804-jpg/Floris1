@@ -92,7 +92,7 @@ export const SubWebExperimentalFormula: React.FC<SubWebExperimentalFormulaProps>
   const [selectedSafetyKey, setSelectedSafetyKey] = useState<string | null>('rule_0');
 
   const [isEditingLabNotes, setIsEditingLabNotes] = useState(false);
-  const [initialEvalState, setInitialEvalState] = useState({
+  const [initialEvalState] = useState({
     physicalState: EXPERIMENTAL_BASELINE_FORMULA.initialEvaluation.physicalState,
     scentEvolution: EXPERIMENTAL_BASELINE_FORMULA.initialEvaluation.scentEvolution,
     strengths: EXPERIMENTAL_BASELINE_FORMULA.initialEvaluation.strengths,

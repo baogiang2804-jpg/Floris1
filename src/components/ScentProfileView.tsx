@@ -1,14 +1,11 @@
-import React, { useState } from 'react';
+import React from 'react';
 import {
   Compass,
   Clock,
   Wind,
-  Sparkles,
   Layers,
   ThermometerSun,
-  Droplets,
   Info,
-  Sliders,
 } from 'lucide-react';
 import {
   ResponsiveContainer,
@@ -43,10 +40,7 @@ export const ScentProfileView: React.FC<ScentProfileViewProps> = ({
   calculatedIngredients,
   tierTotals,
   seasonName,
-  concentrationName,
-  totalVolume,
 }) => {
-  const [hoveredFacet, setHoveredFacet] = useState<string | null>(null);
 
   // Calculate dynamic scores for each fragrance facet based on actual active ingredients & percentages
   const facetsMap: Record<
@@ -378,8 +372,6 @@ export const ScentProfileView: React.FC<ScentProfileViewProps> = ({
             {radarChartData.map((d) => (
               <span
                 key={d.facet}
-                onMouseEnter={() => setHoveredFacet(d.facet)}
-                onMouseLeave={() => setHoveredFacet(null)}
                 className={`text-[11px] px-2.5 py-0.5 rounded-full font-sans transition-all cursor-default border ${
                   d.facet === dominantFacet.facet
                     ? 'bg-pink-100 text-pink-700 border-pink-300 font-bold shadow-xs'

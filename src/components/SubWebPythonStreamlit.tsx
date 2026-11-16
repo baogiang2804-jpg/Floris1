@@ -10,13 +10,10 @@ import {
   CheckCircle2,
   XCircle,
   Sparkles,
-  RefreshCw,
   Sliders,
   Database,
-  Layers,
   ChevronDown,
   ChevronUp,
-  FileSpreadsheet,
   ArrowLeft,
   Info,
 } from 'lucide-react';
@@ -216,7 +213,7 @@ export const SubWebPythonStreamlit: React.FC<SubWebPythonStreamlitProps> = ({
   const [copiedCode, setCopiedCode] = useState<boolean>(false);
 
   // Calculate total percentage & errors
-  const { totalPercentage, limitErrors, hasLimitError } = useMemo(() => {
+  const { totalPercentage, hasLimitError } = useMemo(() => {
     let total = 0;
     const errors: Record<string, boolean> = {};
     let anyError = false;

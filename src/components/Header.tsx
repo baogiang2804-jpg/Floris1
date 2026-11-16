@@ -5,7 +5,6 @@ import {
   Bookmark,
   BookOpen,
   Mic,
-  Sparkles,
 } from 'lucide-react';
 
 interface HeaderProps {
